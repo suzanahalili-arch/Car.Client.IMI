@@ -1,5 +1,34 @@
 body {
-  font-family: Arial;
-  background: #f2f2f2;
+  font-family: Arial, sans-serif;
+  background-color: #f2f4f7;
+  margin: 0;
+  padding: 0;
   text-align: center;
+}
+
+h1 {
+  background: #2c3e50;
+  color: white;
+  padding: 20px;
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.car {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.car h3 {
+  margin: 0 0 5px 0;
+  color: #2c3e50;
 }
